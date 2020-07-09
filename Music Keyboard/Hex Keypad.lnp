@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\system_lpc17xx.o"
+".\lcd_4bit.o"
+".\main.o"
+--strict --scatter ".\Hex Keypad.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Hex Keypad.map" -o ".\Hex Keypad.axf"

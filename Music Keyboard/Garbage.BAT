@@ -1,0 +1,1 @@
+DEL *.o *.d *.crf *.axf *.log *.lnp *.map *.plg *.tra *.bak *.dep *.tra *.iex *.Anand *.plg *.lso *.EDA Support *.plg *.Krishna Rao *.html *.build_log
